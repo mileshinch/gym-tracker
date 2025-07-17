@@ -1,5 +1,20 @@
+<script lang="ts">
+  let gymHistory = $state([]);
+
+  const { form } = $props();
+
+  let exercise = '';
+
+  // function addExercise() {
+  //   if (exercise.trim()) {
+  //     gymHistory.push(exercise.trim());
+  //     exercise = ''; // clear input
+  //   }
+  // }
+</script>
+
 <div class="form-container">
-  <form method="post" on:submit|preventDefault={addExercise}>
+  <form method="post">
     <label for="exercise">Exercise:</label><br />
     <input
       type="text"
@@ -23,18 +38,3 @@
     <li>{item}</li>
   {/each}
 </ul>
-
-<script lang="ts">
-  let gymHistory = $state([]);
-
-  const { form } = $props();
-
-  let exercise = '';
-
-  function addExercise() {
-    if (exercise.trim()) {
-      gymHistory.push(exercise.trim());
-      exercise = ''; // clear input
-    }
-  }
-</script>

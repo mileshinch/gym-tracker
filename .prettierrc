@@ -2,7 +2,7 @@
   "plugins": ["prettier-plugin-svelte"],
   "semi": true,
   "singleQuote": true,
-  "svelteSortOrder": "markup-scripts-options-styles",
+  "svelteSortOrder": "scripts-markup-options-styles",
   "svelteStrictMode": false,
   "svelteBracketNewLine": true,
   "svelteAllowShorthand": true,
