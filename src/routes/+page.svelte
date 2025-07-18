@@ -3,27 +3,32 @@
 
   // $inspect(gymHistory) doesn't work use JSON.parse(localStorage.getItem('gymHistory'))
 
-  let exercise = '';
+  let name = '';
   let weight = '';
 
   function addNewDate() {
     // get today's date
     const today = new Date();
     const formatted = `${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`;
-    console.log(formatted);
     // add a new entry to gym history array {date: 'today's date}
     gymHistory.update((record) => [...record, { date: formatted }]);
   }
 
   function addEntry() {
-    if (exercise.trim() && weight) {
-      gymHistory.update((history) => [
-        ...history,
-        { exercise, weight: parseFloat(weight) },
+    if (name.trim() && weight) {
+      gymHistory.update((record) => [
+        ...record,
+        { name, weight: parseFloat(weight) },
       ]);
 
-      exercise = '';
+      name = '';
       weight = '';
+    }
+  }
+
+  function clearHistory() {
+    if (confirm('Are you sure you want to delete all gym history?')) {
+      gymHistory.set([]);
     }
   }
 </script>
@@ -31,7 +36,7 @@
 <button on:click={addNewDate()}>Record gym session</button>
 
 <form on:submit|preventDefault={addEntry}>
-  <input bind:value={exercise} placeholder="Exercise" />
+  <input bind:value={name} placeholder="Exercise" />
   <input type="number" bind:value={weight} placeholder="Weight" />
   <button type="submit">Add</button>
 </form>
@@ -39,8 +44,12 @@
 <h2>Gym History</h2>
 <ul>
   {#each $gymHistory as entry}
-    <li>{entry.exercise} - {entry.weight}kg</li>
+    <li>{entry.name} - {entry.weight}kg</li>
   {/each}
 </ul>
+
+<button on:click={clearHistory} class="clear-button">
+  Clear All History
+</button>
 
 <a href="./progress-page">Progress page</a>
