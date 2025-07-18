@@ -1,29 +1,46 @@
 <script lang="ts">
-  const { form } = $props();
+  import { gymHistory } from '$lib/stores/gym-history.js';
+
+  // $inspect(gymHistory) doesn't work use JSON.parse(localStorage.getItem('gymHistory'))
 
   let exercise = '';
+  let weight = '';
+
+  function addNewDate() {
+    // get today's date
+    const today = new Date();
+    const formatted = `${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`;
+    console.log(formatted);
+    // add a new entry to gym history array {date: 'today's date}
+    gymHistory.update((record) => [...record, { date: formatted }]);
+  }
+
+  function addEntry() {
+    if (exercise.trim() && weight) {
+      gymHistory.update((history) => [
+        ...history,
+        { exercise, weight: parseFloat(weight) },
+      ]);
+
+      exercise = '';
+      weight = '';
+    }
+  }
 </script>
 
-<div class="form-container">
-  <form method="post">
-    <label for="exercise">Exercise:</label><br />
-    <input
-      type="text"
-      id="exercise"
-      name="exercise"
-      placeholder="Exercise"
-      required
-    /><br />
-    <label for="exercise">Weight:</label><br />
-    <input
-      type="number"
-      id="weight"
-      name="weight"
-      placeholder="Weight (kg)"
-      required
-    /><br />
-    <button type="submit">Submit form</button>
-  </form>
-</div>
+<button on:click={addNewDate()}>Record gym session</button>
+
+<form on:submit|preventDefault={addEntry}>
+  <input bind:value={exercise} placeholder="Exercise" />
+  <input type="number" bind:value={weight} placeholder="Weight" />
+  <button type="submit">Add</button>
+</form>
+
+<h2>Gym History</h2>
+<ul>
+  {#each $gymHistory as entry}
+    <li>{entry.exercise} - {entry.weight}kg</li>
+  {/each}
+</ul>
 
 <a href="./progress-page">Progress page</a>
