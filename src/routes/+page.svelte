@@ -11,20 +11,37 @@
     const today = new Date();
     const formatted = `${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`;
     // add a new entry to gym history array {date: 'today's date}
-    gymHistory.update((record) => [...record, { date: formatted }]);
+    gymHistory.update((record) => [
+      ...record,
+      { date: formatted, exercises: [] },
+    ]);
   }
 
   function addEntry() {
     if (name.trim() && weight) {
-      gymHistory.update((record) => [
-        ...record,
-        { name, weight: parseFloat(weight) },
-      ]);
-
+      gymHistory.update((entry) => {
+        const updated = [...entry];
+        if (updated[0]) {
+          updated[0] = { ...updated[0], exercise: { name, weight } };
+        }
+        return updated;
+      });
       name = '';
       weight = '';
     }
   }
+
+  // function addEntry() {
+  //   if (name.trim() && weight) {
+  //     gymHistory.update((record) => [
+  //       ...record,
+  //       { name, weight: parseFloat(weight) },
+  //     ]);
+
+  //     name = '';
+  //     weight = '';
+  //   }
+  // }
 
   function clearHistory() {
     if (confirm('Are you sure you want to delete all gym history?')) {
