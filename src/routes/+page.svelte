@@ -31,18 +31,6 @@
     }
   }
 
-  // function addEntry() {
-  //   if (name.trim() && weight) {
-  //     gymHistory.update((record) => [
-  //       ...record,
-  //       { name, weight: parseFloat(weight) },
-  //     ]);
-
-  //     name = '';
-  //     weight = '';
-  //   }
-  // }
-
   function clearHistory() {
     if (confirm('Are you sure you want to delete all gym history?')) {
       gymHistory.set([]);
