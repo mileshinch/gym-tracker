@@ -1,0 +1,992 @@
+[
+  {
+    "date": "2025-05-09",
+    "exercises": [
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 20.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 25.0,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 30.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-05-23",
+    "exercises": [
+      {
+        "name": "Assisted dip",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 20.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-04",
+    "exercises": [
+      {
+        "name": "Assisted dip",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-06",
+    "exercises": [
+      {
+        "name": "Assisted dip",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 35.0,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 22.7,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-09",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Leg extension",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-13",
+    "exercises": [
+      {
+        "name": "Assisted dip",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 20.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 9.1,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 9.1,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 5.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-16",
+    "exercises": [
+      {
+        "name": "Assisted dip",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Leg extension",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 5.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-20",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 20.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 35.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 9.1,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 22.7,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 22.7,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 20.0,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 7.5,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-23",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 50.0,
+        "success": true
+      },
+      {
+        "name": "Leg extension",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 5.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-27",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 25.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 50.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 31.8,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 31.8,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 20.0,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 5.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-06-30",
+    "exercises": [
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Leg extension",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 32.3,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 32.3,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 27.4,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 5.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-07-04",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 25.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 50.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 25.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 31.8,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 31.8,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 20.0,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 5.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      },
+      {
+        "name": "calf raises",
+        "weight": 0.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-07-07",
+    "exercises": [
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 18.3,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 50.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 16.0,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 36.0,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 36.0,
+        "success": true
+      },
+      {
+        "name": "Round the world",
+        "weight": 5.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 5.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-07-11",
+    "exercises": [
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 50.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 36.3,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 31.8,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 25.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-07-14",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 50.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-07-15",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 18.3,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 60.0,
+        "success": true
+      },
+      {
+        "name": "Leg extension",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 23.0,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 50.0,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 50.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-07-18",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 35.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 17.5,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 55.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 25.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 9.1,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 13.6,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-07-21",
+    "exercises": [
+      {
+        "name": "Assisted dip",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 43.0,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 43.0,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 23.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-07-25",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 35.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Leg press",
+        "weight": 55.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Dumbell curls",
+        "weight": 7.5,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-08-01",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 45.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 35.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 20.0,
+        "success": true
+      },
+      {
+        "name": "Shoulder press (Overhead press)",
+        "weight": 15.0,
+        "success": true
+      },
+      {
+        "name": "Seated leg curl",
+        "weight": 25.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 13.6,
+        "success": true
+      },
+      {
+        "name": "Hip adduction",
+        "weight": 31.8,
+        "success": true
+      },
+      {
+        "name": "Hip abduction",
+        "weight": 31.8,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 20.0,
+        "success": true
+      }
+    ]
+  },
+  {
+    "date": "2025-08-08",
+    "exercises": [
+      {
+        "name": "Assisted pull up",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Assisted dip",
+        "weight": 40.0,
+        "success": true
+      },
+      {
+        "name": "Chest press (Vertical chest)",
+        "weight": 30.0,
+        "success": true
+      },
+      {
+        "name": "Rear delt",
+        "weight": 18.1,
+        "success": true
+      },
+      {
+        "name": "Pec fly",
+        "weight": 18.1,
+        "success": true
+      },
+      {
+        "name": "Lat pulldown",
+        "weight": 20.0,
+        "success": true
+      }
+    ]
+  }
+]
